@@ -69,8 +69,6 @@ $ npm run test
 $ npm run test:cov
 ```
 
-## Environment variables
-
 ## Endpoints
 
 The application exposes 2 endpoints that receives a prompt and process it using AI to generate a real SQL query.
