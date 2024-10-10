@@ -39,7 +39,14 @@ to execute the query and access the database is needed to create a .env file and
 ```
 TEXT_2_SQL_URL
 TEXT_2_SQL_API_KEY
+DB_TYPE
+DB_HOST
+DB_PORT
+DB_USERNAME
+DB_PASSWORD
+DB_DATABASE
 ```
+After set up your env vars the is ready to be executed
 
 ```bash
 # development
@@ -79,12 +86,6 @@ receives the prompt, generate query and perform the query on database and return
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
